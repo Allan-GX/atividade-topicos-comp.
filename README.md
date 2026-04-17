@@ -1,4 +1,4 @@
-========================================================================================================
+--------------------------------------------------------------------------------------------------------
 git init -> inicia um repositório.
 git clone -> clona um repositório.
 git add -> aisa todas as alterações feitas antes de dar um commit.
@@ -15,4 +15,4 @@ git revert commit_id -> cria um novo commit que desfaz as mudanças introduzidas
 git log -> exibe o histórico de commits de um repositório.
 git rebase nome_da_branch -> Reaplica a commit de uma branch sobre outra.
 git remote add origin link-> conecta seu repositorio local com o remoto
-=======================================================================================================
+--------------------------------------------------------------------------------------------------------
