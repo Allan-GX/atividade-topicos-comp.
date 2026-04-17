@@ -14,4 +14,5 @@ git stash -> salva mudanças que ainda não foram comitadas.
 git revert commit_id -> cria um novo commit que desfaz as mudanças introduzidas por um commit anterior.
 git log -> exibe o histórico de commits de um repositório.
 git rebase nome_da_branch -> Reaplica a commit de uma branch sobre outra.
+git remote add origin link-> conecta seu repositorio local com o remoto
 =======================================================================================================
