@@ -15,12 +15,9 @@
 	</header>
 
     <div class="conteiner">
-        <form action="">
+        <form id="form">
             <label for="nome">Nome: </label>
             <input type="text" placeholder="Digite seu nome..." id="nome" name="nome">
-
-            <label for="data_nascimento">Data de Nascimento: </label>
-            <input type="text" placeholder="dd/mm/aaaa..." id="data_nascimento" name="data_nascimento">
 
             <label for="email">Email: </label>
             <input type="email" placeholder="Digite seu email..." id="email" name="email">
@@ -28,8 +25,13 @@
             <label for="telefone">Telefone: </label>
             <input type="tel" placeholder="(00) 99999-9999" id="telefone" name="telefone">
 
+            <label for="data_nascimento">Data de Nascimento: </label>
+            <input type="date" placeholder="dd/mm/aaaa..." id="data_nascimento" name="data_nascimento" max="">
+
             <button id="botao">Enviar Informações</button>
         </form>
     </div>
+
+<script src="script.js"></script>
 </body>
 </html>
